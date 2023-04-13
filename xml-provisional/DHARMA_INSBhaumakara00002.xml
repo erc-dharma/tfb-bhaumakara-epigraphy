@@ -2,8 +2,8 @@
 <?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!--xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?-->
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
    <teiHeader>
       <fileDesc>
@@ -19,8 +19,8 @@
             <respStmt>
                <resp>intellectual authorship of edition</resp>
                <persName>
-                  <forename>Annette</forename>
-                  <surname>Schmiedchen</surname>
+                  <forename>Narayana</forename>
+                  <surname>Tripathy</surname>
                   </persName>
             </respStmt>
          </titleStmt>
@@ -87,12 +87,12 @@
          <div type="edition" xml:lang="san-Latn">
             <p>
             <pb n="1r"/>
-               <lb n="1"/>siddham <g type="dandaPlain">.</g> siddhiḥ svasty anastamitasamastasāma<unclear>nta</unclear>mahāmahi<choice><sic>nm</sic><corr>mn</corr></choice>asamaṅgajarā<lb 
-                   n="2" break="no"/>jagarjjitasaṁgītakamurajadhvaniḥ <g type="dandaPlain">.</g> guhadevapāṭikāvāsinaḥ <g type="dandaPlain">.</g> vijaya<lb 
-                   n="3" break="no"/>vijayaskandhā<choice><sic>bh</sic><corr>v</corr></choice>ārāT <g type="dandaPlain">.</g> bhaumasya mahati khyātiḥ <g type="dandaPlain">.</g> gu<unclear>ṇa</unclear>mālākule kule <g type="dandaPlain">.</g><lb
-                   n="4"/>ābhūd abhūT <g type="dandaPlain">.</g> pūrvvo smin <g type="dandaPlain">.</g> śrīśivakaraḥ karaḥ <g type="dandaPlain">.</g> tasya putraḥ tatpā<lb
-                   n="5" break="no"/>dānudhyā<choice><sic>T</sic><corr>taḥ</corr></choice> <g type="dandaPlain">.</g> śrīmā<supplied reason="omitted">N</supplied> nidhipatiḥ <g type="dandaPlain">.</g> kulasam<choice><sic>v</sic><corr>b</corr></choice>a<unclear>ndha</unclear>vāyā mahādevyāḥ śrīja<lb 
-                   n="6" break="no"/>yāvalidevyā<supplied reason="omitted">ṁ</supplied> samutpannaḥ <g type="dandaPlain">.</g> paramabha<unclear>ṭṭārakaḥ</unclear> <g type="dandaPlain">.</g> mahārājādhirāja<supplied reason="omitted">ḥ</supplied> para<lb 
+               <lb n="1"/><g type="spiralL"/> siddhiḥ svasty anastamitasamastasāmanta<unclear>mahāmahi</unclear><choice><sic>nm</sic><corr>mn</corr></choice>asamaṅgajarā<lb 
+                   n="2" break="no"/>jagarjjitasaṁgītakamurajadhvaniḥ <g type="dandaPlain">.</g> <unclear cert="low">guhadevapāṭikā</unclear>vāsinaḥ <g type="dandaPlain">.</g> vijaya<lb 
+                   n="3" break="no"/>skandhā<choice><sic>bh</sic><corr>v</corr></choice>ārāT <g type="dandaPlain">.</g> bhaum<surname>y</surname>asya mahati khyātiḥ <g type="dandaPlain">.</g> gu<unclear cert="low">ṇamālā</unclear>kule kule <g type="dandaPlain">.</g><lb
+                   n="4"/>Ābhūd abhūta <g type="dandaPlain">.</g> pūrvvo smiN <g type="dandaPlain">.</g> śrīśivakaraḥ karaḥ <g type="dandaPlain">.</g> <unclear>tasya putra</unclear><choice><sic>sya</sic><corr>ḥ</corr></choice> tatpā<lb
+                   n="5" break="no"/>dānudhyā<choice><sic>T</sic><corr>taḥ</corr></choice> <g type="dandaPlain">.</g> śrīmā<supplied reason="omitted">n</supplied> nidhipatiḥ <g type="dandaPlain">.</g> kulasam<choice><sic>v</sic><corr>b</corr></choice>a<unclear>ndhay</unclear>āyā mahādevyāḥ śrīja<lb 
+                   n="6" break="no"/>yāvalidevyā<supplied reason="omitted">ṁ</supplied> samutpannaḥ <g type="dandaPlain">.</g> parama<unclear>bhaṭṭārakaḥ</unclear> <g type="dandaPlain">.</g> mahārājādhirāja<supplied reason="omitted">ḥ</supplied> para<lb 
                    n="7" break="no"/>me<choice><sic>s</sic><corr>ś</corr></choice>varaḥ <g type="dandaPlain">.</g> śrīśubhākaradevaḥ <g type="dandaPlain">.</g> <gap reason="illegible" quantity="4" unit="character"/> <unclear>kṣiṇe rā vaṁ</unclear> dhāradadhaḥ <g type="dandaPlain">.</g> kvā<lb
                    n="8" break="no"/>dharendramahendra bhūsimnā nimna <gap reason="illegible" quantity="4" unit="character"/> vimalajalāj<choice><sic>a</sic><corr>ā</corr></choice>hnavīcihna<lb   
                    n="9" break="no"/>mahā <g type="dandaPlain">.</g> ramyāya pāpahantā pṛthuṣadiśe mahān utkalendrasya <unclear>ya ca</unclear><lb
