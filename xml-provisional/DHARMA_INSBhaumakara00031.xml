@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Dhāraṇī Stone from Udayagiri, Monastery II</title>
+         	<!-- INSBhaumakara00031 -->
+            <!--<title type="alt">Uncomment to add alternative titles</title>-->
+            <respStmt>
+               <resp key="creator"/>
+               <persName ref="part:argr">
+                  <forename>Arlo</forename>
+                  <surname>Griffiths</surname>
+               </persName>
+            </respStmt>
+             <funder>European Research Council (ERC), grant agreement no 809994</funder>
+         </titleStmt>
+         <publicationStmt>
+            <authority><ref target="https://dharmalekha.info">DHARMA</ref></authority>
+            <pubPlace>Jakarta</pubPlace>
+            <idno type="filename">DHARMA_INSBhaumakara00031.xml</idno>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</licence>
+            </availability>
+            <date from="2019" to="2026">2019-2026</date>
+         </publicationStmt>
+         <sourceDesc>
+            <!--Edit only the handDesc-->
+            <msDesc>
+               <msIdentifier>
+                  <repository>as per external metadata</repository>
+               </msIdentifier>
+               <msContents>
+               	<summary>After some other textual material, the <title>Karaṇḍamudrādhāraṇī</title>, personalized to mention king Śubhārakadeva and his queen.</summary>
+               </msContents>
+               <physDesc>
+                  <handDesc>
+                  	<p>According to Tripathy, <q>Eastern variety of Devanagari characters of circa tenth-eleventh century.</q> The script makes no diustincytion between <foreign>b</foreign> and <foreign>v</foreign>, only the latter being used; the distinction between characters <foreign>dh/v</foreign> is <foreign>r/n</foreign> often ambiguous — or rather, it seems that the engraver was copying from an exemplar that he found ambiguous, and has made wrong choices more than once. Expected <foreign>anusvāra</foreign>s and <foreign>ā-mātrā</foreign>s are often not found or at least undiscernible in the available photographs.</p>
+                  </handDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <!--Do not edit-->
+         <p>Encoded in TEI/EpiDoc according to the <ref target="https://hal.science/halshs-02888186"
+               >DHARMA Encoding Guide for Documentary Editions, version 2</ref></p>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="part:argr" when="2026-09-21" status="draft">encoded the inscription</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:space="preserve">
+      <body>
+         <div type="edition" xml:lang="san-Latn" rendition="class:38774 maturity:83213">
+            <lg met="āryā" n="1"><l n="ab">
+		<lb n="1"/><supplied reason="lost"><g type="symbol" ref="sym:spiral"/></supplied>ye dharmmā hetuprabhavā hetuṁ teṣāṁ tathāgato hy avadat</l> <l n="cd">teṣāṁ ca yo ni<del rend="strikeout">ro</del>rodha Evaṁvādī mahā<lb n="2" break="no"/><unclear>ś</unclear>ramaṇaḥ||</l>
+</lg>
+<p>namo bhagavat<choice><sic>o</sic><corr>e</corr></choice> <unclear>vipu</unclear>la-vadana-kāñcano<supplied reason="omitted">t</supplied>kṣipta-prabhāsa-ketu-mūrdhnas tathāgatā<unclear>ya</unclear>
+<lb n="3"/>namo bhagavat<choice><sic>o</sic><corr>e</corr></choice> śākyamunaye tathāgatāyārhate <unclear>sam</unclear>yak-saṁvuddhāya| tad yathā Om̐ vodhi vodhi
+<lb n="4"/>vodhi vodhi pravare sarva-tathāgata-gocare dhara dhara bhara bhara hara hara prahara prahara mah<unclear>ā</unclear><lb 
+n="5" break="no"/>vodhi-pratiṣṭhite mahā-vodhicitta-dhare culu culu śata-raśmi-saṁcodite sarva-tathāgatābhi<lb 
+n="6" break="no"/>ṣekābhiṣi<supplied reason="lost">kte</supplied> guṇa guṇavate sarva-vuddha-guṇ<choice><sic>a</sic><corr>ā</corr></choice>vabhāse mili mili gagana-tala-pratiṣṭhi<lb 
+n="7" break="no"/>te| sarva-tathāgatādhiṣṭhita-nabhas<unclear>t</unclear>ale śama śama| praśama praśama| sarva-pāpa-pra<lb 
+n="8" break="no"/>śaman<unclear>e</unclear> sarva-pāpa-vi<unclear>ś</unclear>odhane hulu hulu mahā-vodhi-mārga-sa<supplied reason="omitted">ṁ</supplied>prasthite sarva-tathāgata<lb 
+n="9" break="no"/>-pratiṣṭhita-śuddhe vi<supplied reason="lost">śuddhe</supplied> svāhā<surplus>ḥ</surplus>|| mūla-maṁt<unclear>r</unclear>aḥ|| Om̐ sarva-tathāgata-gocara-vyavaloki<lb 
+n="10" break="no"/>te jaya jaya svāhā|| hr̥dayaḥ|| Om̐ huru huru jaya-mukhe svāhā|| namaḥ t<unclear>r</unclear>aiyadh<supplied reason="omitted">v</supplied>ik<unclear>ā</unclear>nāṁ sa<unclear>rva-ta</unclear><lb 
+n="11" break="no"/>thāgatānāṁ| Om̐ bhūta-bhuvana-vare| cacare| culu culu vara vara sarva-tathāgata-dhātu-dhare| padmasa<unclear>ṁ</unclear>bhave
+<lb n="12"/>jaya-vare mumu culu smara tathāgata-dharma-cakra-pravarttana-vajre| vodhi-maṁḍālaṁkārālaṁkr̥te|
+<lb n="13"/>sarva-tathāgatādhiṣṭhite vodhaya vodhaya| vodhi vodhi vudhya vudhya| saṁvodhaya saṁvodhaya cala <unclear reason="eccentric_ductus">ca</unclear><lb 
+n="14" break="no"/>la calantu <space/> mahārāja-śrī-śubhākaradevasya ca gya<unclear cert="low">ka</unclear>devy<choice><sic>a</sic><corr>āḥ</corr></choice> sarva-pāpāvar<choice><sic>āṇa</sic><corr>aṇā</corr></choice>ni sarva-pāpa<lb 
+n="15" break="no"/>-<unclear>vi</unclear>gate| huru huru sarva-śoka-vigate| sarva-tathāgata-hr̥daya-vajri<unclear>ṇi</unclear>| saṁbhara sa<supplied reason="omitted">ṁ</supplied>bhara sarva-tathā<lb 
+n="16" break="no"/>gata-guhya-dhāraṇi-mudre| vuddhe suvuddhe| sarva-tathāgatādhiṣṭhite <choice><sic>dha|</sic><corr>dhā</corr></choice>tu-garbh<choice><sic>a</sic><corr>e</corr></choice> svāhā|| sama<lb 
+n="17" break="no"/>yādhiṣṭhite svāhā| sarva-tathāgata-hr̥daya-dhātu-mudre svāhā| supratiṣṭhita-s<unclear>tū</unclear>pa-tathāgat<choice><sic>a</sic><corr>ā</corr></choice><lb 
+n="18" break="no"/>dhiṣṭhite huru huru hūṁ hūṁ svā<unclear>hā</unclear><supplied reason="omitted">|</supplied> Om̐ sarva-tathāgatoṣṇīṣa-dhātu-mudre| sarva-tathā<unclear>gata-dhātu</unclear><lb 
+n="19" break="no"/>-vibhūṣitādhiṣṭhite svāhā| hūṁ hūṁ phaṭ· phaṭ· svāh<unclear>ā</unclear>|| Om̐ traiyadhve sarva-<unclear>tathāgata-hr̥</unclear><lb 
+n="20" break="no"/>daya-garbhe jvala dharma-dhātu-garbhe| saṁ<unclear cert="low">bhara mamā</unclear>yu<unclear cert="low">ḥ</unclear> saṁśodhaya pāpaṁ sarva-tathāgata-sa<unclear>ma</unclear><supplied reason="lost">ntauṣṇī</supplied><lb 
+n="21" break="no"/>ṣa-vimala-viśuddhe svāhā||</p>
+         </div>
+         <div type="apparatus">
+               <listApp>
+                  <app loc="1">
+                     <lem>-prabhavā</lem>
+                     <rdg source="bib:Tripathy+Khamari2012_01 bib:Tanaka2014_01">prabhava[ḥ]</rdg>
+                     <note/>
+                  </app>
+		<app loc="2">
+			<lem>bhagavat<choice><sic>o</sic><corr>e</corr></choice></lem>
+			<rdg source="bib:Tripathy+Khamari2012_01 bib:Tanaka2014_01">bhagavate</rdg>
+		</app>
+	<app loc="3">
+			<lem>bhagavat<choice><sic>o</sic><corr>e</corr></choice></lem>
+			<rdg source="bib:Tripathy+Khamari2012_01 bib:Tanaka2014_01">bhagavate</rdg>
+		</app>
+	<app loc="4">
+		<lem>bhara bhara hara hara</lem>
+                     <rdg source="bib:Tripathy+Khamari2012_01 bib:Tanaka2014_01">hara hara hara hara</rdg>
+                </app>
+<app loc="8">
+<lem source="bib:Tripathy+Khamari2012_01">-tathāgata<lb n="9" break="no"/>-pratiṣṭhita-</lem>
+                     <rdg source="bib:Tanaka2014_01">-tathāgatā<lb n="9" break="no"/>pratiṣṭhita-</rdg>
+</app>
+<app loc="10">
+<lem source="bib:Tanaka2014_01">t<unclear>r</unclear>aiyadh<supplied reason="omitted">v</supplied>ik<unclear>ā</unclear>nāṁ</lem>
+<rdg source="bib:Tripathy+Khamari2012_01">taiyadhikarāṁ</rdg>
+<note>Tripathy &amp; Khamari add in a footnote (n. 3): <q>This may also be read as <foreign>Traiyadhikāraṁ</foreign>.</q></note>
+</app>
+<app loc="11">
+<lem source="bib:Tanaka2014_01">bhūta-bhavana-vare</lem>
+<rdg source="bib:Tripathy+Khamari2012_01">hr̥ta-bhuvana-dhare</rdg>
+</app>
+<app loc="11">
+<lem>cacare</lem>
+<rdg source="bib:Tripathy+Khamari2012_01">dhara-<unclear>dhara</unclear></rdg>
+<rdg source="bib:Tanaka2014_01">vacare</rdg>
+</app>
+<app loc="11">
+<lem>vara vara</lem>
+<rdg source="bib:Tripathy+Khamari2012_01">dhara</rdg>
+<rdg source="bib:Tanaka2014_01">dhara dhara</rdg>
+</app>
+<app loc="11">
+<lem source="bib:Tanaka2014_01">-dhātu-</lem>
+<rdg source="bib:Tripathy+Khamari2012_01">-<unclear>ca</unclear>kra-</rdg>
+</app>
+<app loc="12">
+<lem>jaya-vare mumu</lem>
+<rdg source="bib:Tripathy+Khamari2012_01">jaya-dhare mu<unclear>mu</unclear></rdg>
+<rdg source="bib:Tanaka2014_01">jaya-vara-mudre</rdg>
+</app>
+<app loc="14">
+<lem source="bib:Tanaka2014_01">calantu</lem>
+<rdg source="bib:Tripathy+Khamari2012_01">cala Om̐</rdg>
+</app>
+<app loc="14">
+<lem source="bib:Tanaka2014_01">mahārāja-śrī-śubhākaradevasya ca</lem>
+<rdg source="bib:Tripathy+Khamari2012_01">mahā-vodhi śrī-guhākare| vodhi sarva-</rdg>
+<note>Tripathy &amp; Khamari add in a footnote (n. 4): <q>It also looks like <foreign>guhyākāre</foreign>.</q></note>
+</app>
+<app loc="14">
+<lem>gya<unclear cert="low">ka</unclear>devy<choice><sic>a</sic><corr>āḥ</corr></choice></lem>
+<rdg source="bib:Tripathy+Khamari2012_01"><unclear>gya</unclear>vadevyaṁ</rdg>
+<rdg source="bib:Tanaka2014_01">śyā<unclear>ma</unclear>-devyā</rdg>
+</app>
+<app loc="14">
+<lem>-pāpāvar<choice><sic>āṇa</sic><corr>aṇā</corr></choice>ni</lem>
+<rdg source="bib:Tripathy+Khamari2012_01">-pāpadhāraṇāri</rdg>
+<rdg source="bib:Tanaka2014_01">-pāp<sic>a</sic>varaṇāni</rdg>
+</app>
+<app loc="15">
+<lem source="bib:Tanaka2014_01">saṁbhara sa<supplied reason="omitted">ṁ</supplied>bhara</lem>
+<rdg source="bib:Tripathy+Khamari2012_01">saṁhara saṁhara</rdg>
+</app>
+<app loc="16">
+<lem source="bib:Tanaka2014_01">suvuddhe</lem>
+<rdg source="bib:Tripathy+Khamari2012_01">saṁvuddhe</rdg>
+</app>
+<app loc="17">
+<lem>supratiṣṭhita-s<unclear>tū</unclear>pa-</lem>
+<rdg source="bib:Tripathy+Khamari2012_01 bib:Tanaka2014_01">-supratiṣṭhita-sarva-</rdg>
+<!-- Giebel's version reads -stūpe. -->
+</app>
+<app loc="18">
+<lem source="bib:Tanaka2014_01">hūṁ hūṁ</lem>
+<note>These syllables are omitted by Tripathy &amp; Khamari.</note>
+</app>
+<app loc="19">
+<lem source="bib:Tanaka2014_01">hūṁ hūṁ</lem>
+<rdg source="bib:Tripathy+Khamari2012_01">hṛiṁ hṛiṁ</rdg>
+</app>
+<app loc="20">
+<lem source="bib:Tanaka2014_01">jvala</lem>
+<rdg source="bib:Tripathy+Khamari2012_01">ddhaya</rdg>
+</app>
+<app loc="20">
+<lem source="bib:Tanaka2014_01">saṁ<unclear cert="low">bhara mamā</unclear>yu<unclear cert="low">ḥ</unclear> saṁśodhaya</lem>
+<rdg source="bib:Tripathy+Khamari2012_01"><unclear>saṁśodhaya</unclear> saṁśodhaya</rdg>
+<note>I tentatively retain Tanaka'ss reading, but it hard to match with the available visual evidence.</note>
+</app>
+               </listApp>
+         </div>
+         <div type="translation">
+ 	         <!--translation goes here -->
+         </div>
+         <div type="commentary">
+            <!--commentary goes here -->
+         </div>
+        <div type="bibliography">
+	        <!--bibliography goes here -->
+           <p>What is evidently the same decipherment, probably due to S. Tripathy, was first published without diactrical marks in a provisional report on excavations at Udayagiri site 2 (<bibl><ptr target="bib:IAR2001-2002"/></bibl>) and then published with diacritical marks in the final excavation report (<bibl><ptr target="bib:Tripathy+Khamari2012_01"/></bibl>); meanwhile, K. Tanaka had published a reading with several improvements based on his identification of the source text that underlies lines 10–19 of the inscription (<bibl><ptr target="bib:Tanaka2014_01"/></bibl>). The results of these previous scholars are reassessed in the present digital edition against a photograph that is good but still leaves several points of doubt.</p>
+        	<listBibl type="primary">
+			<bibl n="IAR"><ptr target="bib:IAR2001-2002"/><citedRange>189-191</citedRange><citedRange unit="plate">121</citedRange></bibl>
+		<bibl n="T&amp;Kh"><ptr target="bib:Tripathy+Khamari2012_01"/><citedRange unit="item">27</citedRange><citedRange>253-254</citedRange><citedRange unit="plate">CLXIII</citedRange></bibl>
+			<bibl n="TK"><ptr target="bib:Tanaka2014_01"/></bibl>
+		</listBibl>
+        <listBibl type="secondary">
+
+           <bibl><ptr target="bib:Mishra2016_01"/><citedRange unit="page">77-78</citedRange></bibl>
+<!-- A photograph of the surface along with a romanized transcription appeared in Indian Archaeology 2001-02 (“A Review”). -->
+        </listBibl>
+        </div>
+      </body>
+  </text>
+</TEI>
