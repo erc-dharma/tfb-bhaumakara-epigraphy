@@ -10,13 +10,6 @@
          <titleStmt>
             <title>Neulpur plate of Śubhākara, year 8</title>
             <respStmt>
-               <resp key="contributor"></resp>
-               <persName>
-                  <forename>Rakhal Das</forename>
-                  <surname>Banerji</surname>
-               </persName>
-            </respStmt>
-            <respStmt>
                <resp key="creator"></resp>
                <persName ref="part:ansc">
                   <forename>Annette</forename>

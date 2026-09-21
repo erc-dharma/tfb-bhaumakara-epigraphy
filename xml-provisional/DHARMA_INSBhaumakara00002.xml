@@ -10,13 +10,6 @@
          <titleStmt>
             <title>Chaurasi plate of Śivakara, year 12</title>
             <respStmt>
-               <resp key="contributor"></resp>
-               <persName>
-                  <forename>Narayana</forename>
-                  <surname>Tripathy</surname>
-               </persName>
-            </respStmt>
-            <respStmt>
                <resp key="creator"></resp>
                <persName ref="part:ansc">
                   <forename>Annette</forename>
