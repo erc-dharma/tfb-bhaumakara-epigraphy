@@ -36,7 +36,7 @@
                   <repository>as per external metadata</repository>
                </msIdentifier>
                <msContents>
-               	<summary>Enclosed within some other textual material, the <title>Karaṇḍamudrādhāraṇī</title>, personalized to mention king Śubhārakadeva and his queen.</summary>
+               	<summary>The inscription opens with the <title>Pratītyasamutpādagāthā</title> (i.e., the <foreign>ye dharmāḥ</foreign> verse), followed by the <title>Bodhisthānālaṁkāradhāraṇī</title> (lines 2–10), the <title>Karaṇḍamudrādhāraṇī</title> (lines 10–18), and a short form of the <title>Vimaloṣṇīṣadhāraṇī</title> (lines 18–21). The <title>Karaṇḍamudrādhāraṇī</title> seems to form the core, and is here very exceptionally personalized to mention King Śubhārakadeva and his queen.</summary>
                </msContents>
                <physDesc>
                   <handDesc>
@@ -58,7 +58,7 @@
    <text xml:space="preserve">
       <body>
          <div type="edition" xml:lang="san-Latn" rendition="class:38774 maturity:83213">
-            <lg met="āryā" n="1"><label>Prātītyasamutpādagāthā</label><l n="ab">
+            <lg met="āryā" n="1"><!--<label>Prātītyasamutpādagāthā</label>--><l n="ab">
 		<lb n="1"/><supplied reason="lost"><g type="symbol" ref="sym:spiral"/></supplied> ye dharmmā hetuprabhavā hetuṁ teṣāṁ tathāgato hy avadat</l> <l n="cd">teṣāṁ ca yo ni<del rend="strikeout">ro</del>rodha Evaṁvādī mahā<lb n="2" break="no"/><unclear>ś</unclear>ramaṇaḥ||</l>
 </lg>
 <p><label>Bodhisthānālaṁkāradhāraṇī</label>namo bhagavat<choice><sic>o</sic><corr>e</corr></choice> <unclear>vipu</unclear>la-vadana-kāñcano<supplied reason="omitted">t</supplied>kṣipta-prabhāsa-ketu-mūrdhnas tathāgatā<unclear>ya</unclear>
@@ -70,7 +70,7 @@ n="7" break="no"/>te| sarva-tathāgatādhiṣṭhita-nabhas<unclear>t</unclear>a
 n="8" break="no"/>śaman<unclear>e</unclear> sarva-pāpa-vi<unclear>ś</unclear>odhane hulu hulu mahā-vodhi-mārga-sa<supplied reason="omitted">ṁ</supplied>prasthite sarva-tathāgata<lb 
 n="9" break="no"/>-pratiṣṭhita-śuddhe vi<supplied reason="lost">śuddhe</supplied> svāhā<surplus>ḥ</surplus>|| mūla-maṁt<unclear>r</unclear>aḥ|| Om̐ sarva-tathāgata-gocara-vyavaloki<lb 
 n="10" break="no"/>te jaya jaya svāhā|| hr̥dayaḥ|| Om̐ huru huru jaya-mukhe svāhā||</p>
-<p><label>Karaṇḍamudrādhāraṇī</label> namaḥ t<unclear>r</unclear>aiyadh<supplied reason="omitted">v</supplied>ik<unclear>ā</unclear>nāṁ sa<unclear>rva-ta</unclear><lb 
+<p><!--<label>Karaṇḍamudrādhāraṇī</label>-->namaḥ t<unclear>r</unclear>aiyadh<supplied reason="omitted">v</supplied>ik<unclear>ā</unclear>nāṁ sa<unclear>rva-ta</unclear><lb 
 n="11" break="no"/>thāgatānāṁ| Om̐ bhūta-bhuvana-vare| cacare| culu culu vara vara sarva-tathāgata-dhātu-dhare| padmasa<unclear>ṁ</unclear>bhave
 <lb n="12"/>jaya-vare mumu culu smara tathāgata-dharma-cakra-pravarttana-vajre| vodhi-maṁḍālaṁkārālaṁkr̥te|
 <lb n="13"/>sarva-tathāgatādhiṣṭhite vodhaya vodhaya| vodhi vodhi vudhya vudhya| saṁvodhaya saṁvodhaya cala <unclear reason="eccentric_ductus">ca</unclear><lb 
@@ -190,7 +190,7 @@ n="21" break="no"/>ṣa-vimala-viśuddhe svāhā||</p>
  	         <!--translation goes here -->
          </div>
          <div type="commentary">
-            <p>According to Tanaka's study (<bibl rend="omitname"><ptr target="bib:Tanaka2014_01"/></bibl>), in this inscription the <title>Karaṇḍamudrādhāraṇī</title> is sandwiched between the <foreign>ye dharmāḥ</foreign> verse and the <title>Bodhisthānālaṁkāradhāraṇī</title> before it, and a short form of the <title>Vimaloṣṇīṣadhāraṇī</title> after it. The latter has been dealt with in <bibl><ptr target="bib:Schopen1985_02"/></bibl>.</p>
+            <!--<p>According to Tanaka's study (<bibl rend="omitname"><ptr target="bib:Tanaka2014_01"/></bibl>), in this inscription the <title>Karaṇḍamudrādhāraṇī</title> is sandwiched between the <foreign>ye dharmāḥ</foreign> verse and the <title>Bodhisthānālaṁkāradhāraṇī</title> before it, and a short form of the <title>Vimaloṣṇīṣadhāraṇī</title> after it. The latter has been dealt with in <bibl><ptr target="bib:Schopen1985_02"/></bibl>.</p>-->
          </div>
         <div type="bibliography">
            <p>What is evidently the same decipherment, probably due to S. Tripathy, was first published without diactrical marks in a provisional report on excavations at Udayagiri site 2 (<bibl><ptr target="bib:IAR2001-2002"/></bibl>) and then published with diacritical marks in the final excavation report (<bibl><ptr target="bib:Tripathy+Khamari2012_01"/></bibl>); apparently before the latter version became known to him, K. Tanaka had already published a reading with several improvements based on his identification of the source text that underlies lines 10–19 of the inscription (<bibl><ptr target="bib:Tanaka2014_01"/></bibl>). The results of these previous scholars are reassessed in the present digital edition against a photograph that is good but still leaves several points of doubt.</p>
